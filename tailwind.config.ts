@@ -16,6 +16,12 @@ const config: Config = {
       fontFamily:{
       circular:["var(--font-circular)"]
       
+      },
+       width: {
+        '82': '350px',
+        '84': '420px',
+        '86': '460px',
+        '88': '500px',
       }
     },
   },
