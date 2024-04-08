@@ -22,7 +22,16 @@ const config: Config = {
         '84': '420px',
         '86': '460px',
         '88': '500px',
-      }
+      },
+      height: {
+        '17': '70px'
+      },
+      fontSize: {
+        'xxs': '6px'
+      },
+      backgroundColor:{
+        'zinc-1000': '#191414'
+      },
     },
   },
   plugins: [],

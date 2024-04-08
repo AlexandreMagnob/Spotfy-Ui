@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${circular.variable} font-circular`}>
-      <body className="bg-zinc-900 text-zinc-50">{children}</body>
+      <body className="bg-zinc-1000 text-zinc-50">{children}</body>
     </html>
   );
 }

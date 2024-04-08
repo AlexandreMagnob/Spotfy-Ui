@@ -100,3 +100,11 @@ export function ExitIcon() {
 
   )
 }
+
+export function PlayIcon () {
+  return(
+    <svg width="11" height="14" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 21.5L18.375 11L0 0.5V21.5Z" fill="black"/>
+    </svg>
+  )
+}
