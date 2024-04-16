@@ -3,9 +3,9 @@ import {AddListIcon, BackIcon, CreatListIcon, ExitIcon, ForwardIcon, HomeIcon,Li
 export default function Home() {
   return (
     <div className="h-screen flex flex-col  ">
-      <div className="flex flex-1 text-zinc-100 text-sm">
+      <div className="flex flex-1 text-zinc-100 text-sm ">
         <div className="flex flex-col overflow-y-auto h-screen">
-          <aside className="space-y-8 w-56 bg-black pl-5 pt-5 pb-24 text-zinc-400 " >
+          <aside className="space-y-8 w-56 h-screen bg-black pl-5 pt-5 pb-24 text-zinc-400 " >
 
             <nav className="flex flex-col gap-3">
               <a href="" className="flex gap-3 hover:text-zinc-50"><HomeIcon /> Home</a>
@@ -85,9 +85,9 @@ export default function Home() {
           <div>
             <h1 className="text-2xl font-semibold">Episodes for You</h1>
             <div className="w-max mt-6 grid grid-cols-5 gap-12   ">
-             <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+             <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center ">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -100,9 +100,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -114,9 +114,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -128,9 +128,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -142,9 +142,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -161,9 +161,9 @@ export default function Home() {
           <div>
             <h1 className="text-2xl font-semibold">Episodes for You</h1>
             <div className="w-max mt-6 grid grid-cols-5 gap-12   ">
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -175,9 +175,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -189,9 +189,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -203,9 +203,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
@@ -217,9 +217,9 @@ export default function Home() {
                   <p className="text-xs text-zinc-400">Beyoncé</p>
                 </div>
               </div>
-              <div className="group cursor-pointer bg-neutral-800 w-44 h-60  rounded-md flex flex-col pt-4 gap-3 hover:bg-neutral-700 transition-colors ">
+              <div className="group cursor-pointer bg-transparent bg-opacity-0 w-44 h-60  rounded-md flex flex-col pt-2 gap-3 hover:bg-neutral-500 hover:bg-opacity-10 transition-colors ">
                 <div className="relative flex justify-center">
-                 <Image width={150} height={150} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
+                 <Image width={160} height={160} src="/images/byonce.jpeg" alt="Foto Byonce" className="rounded-sm"/>
                  <div className="flex items-end justify-end ">
                   <button className="absolute bg-emerald-500 rounded-full w-8 h-8 flex items-center justify-center pl-0.5 mb-3 mr-3 shadow-2xl invisible group-hover:visible">
                       <PlayIcon  />
