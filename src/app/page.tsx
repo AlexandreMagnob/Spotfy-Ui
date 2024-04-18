@@ -1,5 +1,5 @@
 import Image from "next/image.js";
-import {AddListIcon, BackIcon, CreatListIcon, ExitIcon, ForwardIcon, HomeIcon,LibraryIcon,PlayIcon,SearchIcon} from "../../public/svg/Icons.js"
+import {AddListIcon, BackIcon, CreatListIcon, ExitIcon, ForwardIcon, HomeIcon,LibraryIcon,LikeIcon, NextMusicIcon,BackMusicIcon ,PlayIcon,PlayMusicIcon,RepeatMusicIcon,SearchIcon, RandomMusicIcon} from "../../public/svg/Icons.js"
 export default function Home() {
   return (
     <div className="h-screen flex flex-col  ">
@@ -235,8 +235,24 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-1000 border-t border-zinc-700 pl-6 pt-3 pb-3 fixed bottom-0 right-0 w-full   ">
-      <Image width={60} height={60} src="/images/byonce.jpeg" alt="Foto Byonce" className=""/>
+      <footer className="flex justify-between bg-zinc-1000 border-t border-zinc-700 pl-6 pt-3 pb-3 fixed bottom-0 right-0 w-full   ">
+      <div className="flex items-center gap-5">
+        <Image width={60} height={60} src="/images/byonce.jpeg" alt="Foto Byonce" className=""/>
+        <div className="">
+          <p className="text-sm cursor-pointer hover:underline">TEXAS HOLD 'EM</p>
+          <p className="text-sm text-zinc-400 cursor-pointer hover:underline hover:text-zinc-50">Beyoncé</p>
+        </div>
+        <div className="cursor-pointer">
+          <LikeIcon />
+        </div>      
+      </div>
+      <div className="flex items-center gap-6">
+        <RandomMusicIcon />
+        <BackMusicIcon />
+        <PlayMusicIcon />
+        <NextMusicIcon />
+        <RepeatMusicIcon />
+      </div>
       </footer>
     </div>
   ); 
