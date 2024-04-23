@@ -246,12 +246,28 @@ export default function Home() {
           <LikeIcon />
         </div>      
       </div>
-      <div className="flex items-center gap-6">
-        <RandomMusicIcon />
-        <BackMusicIcon />
-        <PlayMusicIcon />
-        <NextMusicIcon />
-        <RepeatMusicIcon />
+      <div className="flex flex-col items-center gap-4">
+        <div className="flex items-center gap-6">
+          <RandomMusicIcon />
+          <BackMusicIcon />
+          <PlayMusicIcon />
+          <NextMusicIcon />
+          <RepeatMusicIcon />
+        </div>
+          <div className="flex items-center gap-3 group">
+            <span className="text-xs text-zinc-500">1:15</span>
+            <div className="h-1 rounded-full w-80 bg-zinc-700 ">
+              <div className="h-1 rounded-full w-44 bg-zinc-200">
+              <div className="flex items-center justify-end fixed h-1 rounded-full w-44 bg-emerald-500 invisible group-hover:visible ">
+              <div className="rounded-full h-3 w-3 bg-zinc-50 " ></div>
+              </div>
+              </div>
+            </div>
+            <span className="text-xs text-zinc-500">2:35</span>
+        </div>
+      </div>
+      <div>
+      
       </div>
       </footer>
     </div>
