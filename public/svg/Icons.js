@@ -171,10 +171,10 @@ export function PlayMusicIcon(){
 }
 
 
-export function NextMusicIcon(){
+export function NextMusicIcon(black){
   return(
     <svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M3 3L11 7.619V3.5H13V13.5H11V9.381L3 14V3Z" fill="grey"/>
+    <path d="M3 3L11 7.619V3.5H13V13.5H11V9.381L3 14V3Z" fill={black.name}/>
     </svg>
 
   )

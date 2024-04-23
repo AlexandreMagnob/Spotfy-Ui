@@ -250,11 +250,11 @@ export default function Home() {
         <div className="flex items-center gap-6">
           <button><RandomMusicIcon /> </button>
           <button><BackMusicIcon /></button>
-          <button><PlayMusicIcon /></button>
-          <button><NextMusicIcon /></button>
+          <button><PlayMusicIcon  /></button>
+          <button><NextMusicIcon name="black" /></button>
           <button><RepeatMusicIcon /></button>
         </div>
-          <div className="flex items-center gap-3 group">
+          <div className="flex items-center gap-3 group cursor-pointer">
             <span className="text-xs text-zinc-500">1:15</span>
             <div className="h-1 rounded-full w-80 bg-zinc-700 ">
               <div className="h-1 rounded-full w-44 bg-zinc-200">
