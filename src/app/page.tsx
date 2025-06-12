@@ -1,4 +1,4 @@
-import Image from "next/image.js";
+import Image from "next/image";
 import {AddListIcon, BackIcon, CreatListIcon, ExitIcon, ForwardIcon, HomeIcon,LibraryIcon,LikeIcon, NextMusicIcon,BackMusicIcon ,PlayIcon,PlayMusicIcon,RepeatMusicIcon,SearchIcon, RandomMusicIcon} from "../../public/svg/Icons.js"
 export default function Home() {
   return (
